@@ -43,7 +43,7 @@ def mouv(a, q, t="out", j=[], force=False, log=True):
     if t == "out":
         a["q"] = a["q"] - q
         if a["q"] < 0:
-            if force == False:
+            if force == False: 
                 if log:
                     print("stock insuffisant pour " + a["ref"])
                 return False
