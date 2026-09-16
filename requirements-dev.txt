@@ -1,0 +1,8 @@
+ruff lint et formatage, très rapide
+pylint analyse profonde, score sur 10
+radon complexité cyclomatique, indice de maintenabilité
+xenon transforme un seuil radon en barrière bloquante
+vulture code mort
+mypy cohérence des types
+pytest + pytest-cov tests et couverture
+pre-commit bloque les commits non conformes
